@@ -2,7 +2,7 @@
 
 namespace CoreCodedChatbot.ApiContract.ResponseModels.Playlist
 {
-    public class PlaylistModel
+    public class GetAllSongsResponse
     {
         public PlaylistItem CurrentSong { get; set; }
         public PlaylistItem[] VipList { get; set; }
