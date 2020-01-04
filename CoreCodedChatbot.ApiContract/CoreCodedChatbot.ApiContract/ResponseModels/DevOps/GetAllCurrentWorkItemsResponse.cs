@@ -5,6 +5,6 @@ namespace CoreCodedChatbot.ApiContract.ResponseModels.DevOps
 {
     public class GetAllCurrentWorkItemsResponse
     {
-        public List<ParentWorkItem> WorkItems { get; set; }
+        public List<DevOpsWorkItem> WorkItems { get; set; }
     }
 }
