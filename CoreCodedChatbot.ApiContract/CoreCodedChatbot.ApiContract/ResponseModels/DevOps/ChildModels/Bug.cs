@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CoreCodedChatbot.ApiContract.ResponseModels.DevOps.ChildModels
 {
-    public class Bug : ParentWorkItems
+    public class Bug : ParentWorkItem
     {
         public string ReproSteps { get; set; }
         public string SystemInfo { get; set; }
