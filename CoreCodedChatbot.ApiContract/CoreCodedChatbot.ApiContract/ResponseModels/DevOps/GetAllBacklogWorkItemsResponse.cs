@@ -5,6 +5,7 @@ namespace CoreCodedChatbot.ApiContract.ResponseModels.DevOps
 {
     public class GetAllBacklogWorkItemsResponse
     {
-        public List<DevOpsWorkItem> WorkItems { get; set; }
+        public List<DevOpsProductBacklogItem> ProductBacklogItems { get; set; }
+        public List<DevOpsBug> Bugs { get; set; }
     }
 }
