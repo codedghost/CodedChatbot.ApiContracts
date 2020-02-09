@@ -8,6 +8,7 @@
         Success,
         UnSuccessful,
         NoRequestEntered,
-        OnlyOneSuper
+        OnlyOneSuper,
+        NotEnoughVips
     }
 }
