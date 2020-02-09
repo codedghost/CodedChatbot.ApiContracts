@@ -4,7 +4,7 @@
     {
         PlaylistVeryClosed,
         PlaylistClosed,
-        NoMultipleRequests,
+        MaximumRegularRequests,
         Success,
         UnSuccessful,
         NoRequestEntered,
