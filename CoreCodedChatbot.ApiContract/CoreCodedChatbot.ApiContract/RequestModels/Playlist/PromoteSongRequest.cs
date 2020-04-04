@@ -2,6 +2,7 @@
 {
     public class PromoteSongRequest
     {
+        public int SongRequestId { get; set; }
         public string Username { get; set; }
     }
 }
