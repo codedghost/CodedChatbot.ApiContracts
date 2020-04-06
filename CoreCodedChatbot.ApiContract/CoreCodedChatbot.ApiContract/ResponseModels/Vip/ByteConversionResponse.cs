@@ -1,6 +1,6 @@
 ﻿namespace CoreCodedChatbot.ApiContract.ResponseModels.Vip
 {
-    public class ByteConversionResult
+    public class ByteConversionResponse
     {
         public int ConvertedBytes { get; set; }
     }
