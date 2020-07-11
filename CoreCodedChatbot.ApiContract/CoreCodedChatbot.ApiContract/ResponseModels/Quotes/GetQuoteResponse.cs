@@ -1,8 +1,9 @@
-﻿namespace CoreCodedChatbot.ApiContract.ResponseModels.Quotes
+﻿using CoreCodedChatbot.ApiContract.ResponseModels.Quotes.ChildModels;
+
+namespace CoreCodedChatbot.ApiContract.ResponseModels.Quotes
 {
     public class GetQuoteResponse
     {
-        public int QuoteId { get; set; }
-        public string QuoteText { get; set; }
+        public Quote Quote { get; set; }
     }
 }
