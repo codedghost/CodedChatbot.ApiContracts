@@ -6,6 +6,5 @@ namespace CoreCodedChatbot.ApiContract.RequestModels.ChannelRewards
     {
         public Guid ChannelRewardId { get; set; }
         public string RedeemedBy { get; set; }
-        public DateTime RedeemedAt { get; set; }
     }
 }
