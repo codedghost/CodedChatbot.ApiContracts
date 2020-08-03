@@ -1,4 +1,6 @@
-﻿namespace CoreCodedChatbot.ApiContract.ResponseModels.Quotes.ChildModels
+﻿using System;
+
+namespace CoreCodedChatbot.ApiContract.ResponseModels.Quotes.ChildModels
 {
     public class Quote
     {
@@ -6,6 +8,7 @@
         public string QuoteText { get; set; }
         public string CreatedBy { get; set; }
         public bool Disabled { get; set; }
-        public string DisabledBy { get; set; }
+        public string LastEditedBy { get; set; }
+        public DateTime EditedAt { get; set; }
     }
 }
