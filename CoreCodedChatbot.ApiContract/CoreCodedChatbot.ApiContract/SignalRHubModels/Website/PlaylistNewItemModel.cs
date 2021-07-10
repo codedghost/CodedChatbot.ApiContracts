@@ -1,7 +1,7 @@
 ﻿using CoreCodedChatbot.ApiContract.Enums.Playlist;
 using Newtonsoft.Json;
 
-namespace CoreCodedChatbot.ApiContract.SignalRHubModels
+namespace CoreCodedChatbot.ApiContract.SignalRHubModels.Website
 {
     public class PlaylistNewItemModel : PlaylistHtmlEditModel
     {

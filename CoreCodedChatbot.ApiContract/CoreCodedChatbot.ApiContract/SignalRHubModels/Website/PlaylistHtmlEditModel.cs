@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CoreCodedChatbot.ApiContract.SignalRHubModels
+namespace CoreCodedChatbot.ApiContract.SignalRHubModels.Website
 {
     public class PlaylistHtmlEditModel : PlaylistBasicEditModel
     {

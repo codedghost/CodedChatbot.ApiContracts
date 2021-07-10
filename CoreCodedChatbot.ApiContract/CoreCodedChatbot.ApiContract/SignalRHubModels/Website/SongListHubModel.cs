@@ -1,10 +1,9 @@
 ﻿using CoreCodedChatbot.ApiContract.ResponseModels.Playlist.ChildModels;
 
-namespace CoreCodedChatbot.ApiContract.SignalRHubModels
+namespace CoreCodedChatbot.ApiContract.SignalRHubModels.Website
 {
-    public class SongListHubModel
+    public class SongListHubModel : AuthorizedHubRequest
     {
-        public string psk { get; set; }
         public PlaylistItem currentSong { get; set; }
         public PlaylistItem[] regularRequests { get; set; }
         public PlaylistItem[] vipRequests { get; set; }
