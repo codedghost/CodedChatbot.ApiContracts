@@ -5,12 +5,7 @@ namespace CoreCodedChatbot.ApiContract.SignalRHubModels.Website.ClientSpecific
 {
     public class ByteTotalUpdateModel : AuthorizedHubRequest
     {
-        public IEnumerable<ByteTotalUserModel> UserUpdates { get; set; }
-    }
-
-    public class ByteTotalUserModel
-    {
+        public IEnumerable<string> ClientIds { get; set; }
         public string TotalBytes { get; set; }
-        public string ClientId { get; set; }
     }
 }
