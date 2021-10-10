@@ -4,5 +4,6 @@
     {
         public int SongRequestId { get; set; }
         public string Username { get; set; }
+        public bool UseSuperVip { get; set; }
     }
 }
