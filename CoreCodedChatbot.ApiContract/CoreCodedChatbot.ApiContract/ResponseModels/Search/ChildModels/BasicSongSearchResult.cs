@@ -12,5 +12,6 @@ namespace CoreCodedChatbot.ApiContract.ResponseModels.Search.ChildModels
         public bool IsDownloaded { get; set; }
         public bool IsOfficial { get; set; }
         public bool IsLinkDead { get; set; }
+        public string DownloadUrl { get; set; }
     }
 }

@@ -9,3 +9,5 @@
 /CoreCodedChatbot.ApiContract/.vs/CoreCodedChatbot.ApiContract/DesignTimeBuild
 /CoreCodedChatbot.ApiContract/CoreCodedChatbot.ApiContract/bin/Debug/netstandard2.0
 /CoreCodedChatbot.ApiContract/CoreCodedChatbot.ApiContract/bin/Debug/netstandard2.1
+/.vs
+/CoreCodedChatbot.ApiContract/.vs
