@@ -6,5 +6,6 @@ namespace CoreCodedChatbot.ApiContract.ResponseModels.Playlist
     {
         public AddRequestResult Result { get; set; }
         public int PlaylistPosition { get; set; }
+        public string FormattedSongText { get; set; }
     }
 }
