@@ -4,6 +4,6 @@ namespace CoreCodedChatbot.ApiContract.ResponseModels.Counters
 {
     public class UpdateCounterResponse
     {
-        Counter Counter { get; set; }
+        public Counter Counter { get; set; }
     }
 }
