@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +14,7 @@
   <ItemGroup>
     <Folder Include="Enums\ChannelRewards\" />
     <Folder Include="ResponseModels\ChannelRewards\" />
+    <Folder Include="ResponseModels\Counters\ChildModels\" />
   </ItemGroup>
 
 </Project>
