@@ -15,6 +15,7 @@
     <Folder Include="Enums\ChannelRewards\" />
     <Folder Include="ResponseModels\ChannelRewards\" />
     <Folder Include="ResponseModels\Counters\ChildModels\" />
+    <Folder Include="ResponseModels\WatchTime\" />
   </ItemGroup>
 
 </Project>
