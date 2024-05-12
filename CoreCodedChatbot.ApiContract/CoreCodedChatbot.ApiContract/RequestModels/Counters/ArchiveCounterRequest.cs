@@ -1,6 +1,6 @@
 ﻿namespace CoreCodedChatbot.ApiContract.RequestModels.Counters;
 
-public class GetOofRequest
+public class ArchiveCounterRequest
 {
     public string CounterName { get; set; }
 }
