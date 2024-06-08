@@ -16,6 +16,7 @@
     <Folder Include="ResponseModels\ChannelRewards\" />
     <Folder Include="ResponseModels\Counters\ChildModels\" />
     <Folder Include="ResponseModels\WatchTime\" />
+    <Folder Include="ResponseModels\Ylyl\ChildModels\" />
   </ItemGroup>
 
 </Project>
