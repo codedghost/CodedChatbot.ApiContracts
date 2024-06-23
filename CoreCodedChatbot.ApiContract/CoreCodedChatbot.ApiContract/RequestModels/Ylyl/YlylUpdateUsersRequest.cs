@@ -4,5 +4,5 @@ namespace CoreCodedChatbot.ApiContract.RequestModels.Ylyl;
 
 public class YlylUpdateUsersRequest
 {
-    private KeyValuePair<ulong, ulong> ChannelsToUpdate { get; set; }
+    private List<KeyValuePair<ulong, ulong>> ChannelsToUpdate { get; set; }
 }
